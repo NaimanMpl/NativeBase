@@ -20,5 +20,10 @@ header {
 }
 
 .nav-logo {
-    height: 8rem;
+    margin-right: auto;
+    height: 120px;
+}
+
+.hamburger {
+    padding: 1em;
 }
