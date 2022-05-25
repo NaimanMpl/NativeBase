@@ -2,7 +2,10 @@
 
 :root {
     --primary-color: #10182a;
+    --secondary-color: rgba(45,170,219,0.3);
+    --gray: rgb(161, 162, 169);
     --light: #e5e7eb;
+    --purple: #4f46e5;
 }
 
 body {
@@ -10,6 +13,8 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background: var(--primary-color);
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -19,6 +24,10 @@ header {
     padding: 0px 5%;
 }
 
+a { text-decoration: none; }
+
+ul { list-style: none; }
+
 .nav-logo {
     margin-right: auto;
     height: 120px;
@@ -26,4 +35,109 @@ header {
 
 .hamburger {
     padding: 1em;
+}
+
+section.hero h1 {
+    font-size: 2.3rem;
+    color: var(--light);
+}
+
+.hero-container p {
+    color: var(--gray);
+}
+
+.hero-container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.supported-frameworks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.supported-frameworks span {
+    font-weight: 400;
+    color: var(--light);
+    text-transform: uppercase;
+}
+
+.supported-frameworks img {
+    height: 30px;
+}
+
+.framework{
+    display: flex;
+    align-items: center;
+}
+
+.framework p {
+    font-size: 0.8rem;
+    color: var(--light);
+    font-weight: 900;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 11vh;
+}
+
+.hero-buttons a {
+    font-weight: 900;
+    border-radius: 8px;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.buy-now-btn {
+    background-color: var(--purple);
+    color: white;
+}
+
+.browse-btn {
+    border: 1px solid var(--gray);
+    color: var(--gray);
+}
+
+.features-container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.features-description h1 {
+    color: var(--light);
+}
+
+.features-description p {
+    color: var(--gray);
+}
+
+.features-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature img {
+    margin-right: auto;
+    height: 50px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.description h1 {
+    color: var(--light);
+}
+
+.description p {
+    color: var(--gray);
 }
