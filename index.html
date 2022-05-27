@@ -7,20 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NativeBase Startup</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e1b0959a95.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <img class="nav-logo" src="./img/logo.png" alt="NativeBase Startup+ Logo">
         <nav>
-            <ul class="nav-links">
+            <ul class="desktop-nav">
 
             </ul>
         </nav>
         <img class="sun" src="./img/sun.svg" alt="">
-        <img class="hamburger" src="./img/menu.svg" alt="Menu">
+        <img class="mobile-menu" src="./img/menu.svg" alt="Menu">
+        <img class="mobile-menu-exit" src="./img/exit.svg" alt="Exit Menu">
     </header>
+    <div class="mobile-nav-container">
+        <a href="#">Builder</a>
+        <a href="#">Dcos</a>
+        <a href="#">FAQ</a>
+        <a class="cta" href="#">Restore Purchase</a>
+    </div>
     <section class="hero">
         <div class="hero-container">
             <h1>The only React and React Native template that you will ever need.</h1>
@@ -63,28 +69,178 @@
                     and complete Adobe XD kit with assets for all the screens.
                 </p>
             </div>
-            <div class="features-cards">
-                <div class="feature">
-                    <div class="feature-img">
+            <div class="features-cards-container">
+                <div class="feature-card card1">
+                    <div class="feature-card-img">
                         <img src="./img/dark-mode.svg" alt="">
                     </div>
-                    <div class="description">
-                        <h1>100+ Screens</h1>
-                        <p>NativeBase Startup+ has 100+ beautiful screens with source code to help you build your product faster.</p>
+                    <div class="feature-card-content">
+                        <h1 class="head">100+ Screens</h1>
+                        <p class="subhead">NativeBase Startup+ has 100+ beautiful screens with source code to help you build your product faster.</p>
                     </div>
                 </div>
-                <div class="feature">
-                    <div class="feature-img">
+                <div class="feature-card card2">
+                    <div class="feature-card-img">
                         <img src="./img/dark-mode.svg" alt="">
                     </div>
-                    <div class="description">
-                        <h1>Dark Mode</h1>
-                        <p>All the screens have support for a Dark Theme unlike the regular themes.</p>
+                    <div class="feature-card-content">
+                        <h1 class="head">100+ Screens</h1>
+                        <p class="subhead">NativeBase Startup+ has 100+ beautiful screens with source code to help you build your product faster.</p>
+                    </div>
+                </div>
+                <div class="feature-card card3">
+                    <div class="feature-card-img">
+                        <img src="./img/dark-mode.svg" alt="">
+                    </div>
+                    <div class="feature-card-content">
+                        <h1 class="head">100+ Screens</h1>
+                        <p class="subhead">NativeBase Startup+ has 100+ beautiful screens with source code to help you build your product faster.</p>
+                    </div>
+                </div>
+                <div class="feature-card card4">
+                    <div class="feature-card-img">
+                        <img src="./img/dark-mode.svg" alt="">
+                    </div>
+                    <div class="feature-card-content">
+                        <h1 class="head">100+ Screens</h1>
+                        <p class="subhead">NativeBase Startup+ has 100+ beautiful screens with source code to help you build your product faster.</p>
+                    </div>
+                </div>
+                <div class="feature-card card5">
+                    <div class="feature-card-img">
+                        <img src="./img/dark-mode.svg" alt="">
+                    </div>
+                    <div class="feature-card-content">
+                        <h1 class="head">100+ Screens</h1>
+                        <p class="subhead">NativeBase Startup+ has 100+ beautiful screens with source code to help you build your product faster.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sneak-peek-container">
+                <h1 class="sneak-peek-title">Sneak peek</h1>
+                <img class="sneak-peek-img" src="./img/sneak_peek_bg.png" alt="Sneak peek Background">
+            </div>
+            <div class="features-list-description">
+                <h1>Why NativeBase Startup+ ?</h1>
+                <p>..because isn’t it awesome to build your product in ~ 50% time, 50% resources and ~ 50% less cost on top of a platform already trusted by millions?</p>
+            </div>
+            <div class="features-list-container">
+                <div onmouseover="changeContent()" onmouseout="resetContent()" class="feature-list">
+                    <img class="feature-img" src="./img/rocket_icon.svg" alt="Speed">
+                    <h3 class="feature-head">Develop</h3>
+                    <h2 class="feature-subhead">Upto 2x faster</h2>
+                </div>
+                <div class="feature-list">
+                    <img src="./img/rocket_icon.svg" alt="Speed">
+                    <h3 class="feature-head">Saves</h3>
+                    <h2 class="feature-subhead">Upto 40-50% Cost</h2>
+                </div>
+                <div class="feature-list">
+                    <img src="./img/rocket_icon.svg" alt="Speed">
+                    <h3 class="feature-head">Easily</h3>
+                    <h2 class="feature-subhead">Customizable</h2>
+                </div>
+                <div class="feature-list">
+                    <img src="./img/rocket_icon.svg" alt="Speed">
+                    <h3 class="feature-head">Built on</h3>
+                    <h2 class="feature-subhead">NativeBase</h2>
+                </div>
+            </div>
+            <div class="feedbacks-container">
+                <div class="feedbacks-text">
+                    <p>
+                        Every time I build apps, I waste weeks rebuilding the same screens over and over again; Auth screens, News feed, Search screen, Sidebar / Drawer, Profile screens, Shopping cart, Product pages etc.
+                    </p>
+                    <p>
+                        That's why the NativeBase team (me and other brilliant folks) created NativeBase Startup+.
+                    </p>
+                    <p>
+                        The NativeBase Startup+ bundle has over 100 UI screens for native mobile apps and web apps. We have spent months building it right so that you don't have to. Whether you are a business owner, a service provider or an indie developer, this bundle will save weeks of effort and help you build your apps faster.
+                    </p>
+                </div>
+                <div class="feedbacks-card">
+                    <img src="./img/person.webp" alt="">
+                    <div class="feedbacks-card-info">
+                        <h4>Sanket Saku</h4>
+                        <h4>Founder @GeekyAnts</h4>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="function">
+        <div class="function-container">
+            <h1 class="function-title">
+                Browse through the list of well-crafted NativeBase Startup+ screens
+            </h1>
+            <p class="function-subtitle">
+                100+ Plug and Play screens you can use in your React/React Native Projects to build beautiful, responsive and accessible UI, for any type of app.
+            </p>
+        </div>
+    </section>
+    <section class="screens-examples">
+        <div class="screen-examples-container">
+            <div class="screen-example">
+                <div class="screen-example-borderbox">
+                </div>
+                <h4>Login</h4>
+                <h5>6 screens</h5>
+            </div>
+            <div class="screen-example">
+                <div class="screen-example-borderbox">
+                    <img src="./img/screen_example.webp" alt="Login Example Screen">
+                </div>
+                <h4>Login</h4>
+                <h5>6 screens</h5>
+            </div>
+            <div class="screen-example">
+                <div class="screen-example-borderbox">
+                    <img src="./img/screen_example.webp" alt="Login Example Screen">
+                </div>
+                <h4>Login</h4>
+                <h5>6 screens</h5>
+            </div>
+            <div class="screen-example">
+                <div class="screen-example-borderbox">
+                    <img src="./img/screen_example.webp" alt="Login Example Screen">
+                </div>
+                <h4>Login</h4>
+                <h5>6 screens</h5>
+            </div>
+            <div class="screen-example">
+                <div class="screen-example-borderbox">
+                    <img src="./img/screen_example.webp" alt="Login Example Screen">
+                </div>
+                <h4>Login</h4>
+                <h5>6 screens</h5>
+            </div>
+            <div class="screen-example">
+                <div class="screen-example-borderbox">
+                    <img src="./img/screen_example.webp" alt="Login Example Screen">
+                </div>
+                <h4>Login</h4>
+                <h5>6 screens</h5>
+            </div>
+            <div class="screen-example-left-col">
+                <h1>5 free screens! Try before you buy.</h1>
+                <div class="screen-example-try-box">
+                    <div class="screen-example-try-item">
+                        <img src="./img/qrcode.jpg" alt="QRCode">
+                        <h4>Scan with Expo app</h4>
+                    </div>
+                    <hr>
+                    <div class="screen-example-try-item">
+                        <img src="./img/laptop.svg" alt="Laptop Logo">
+                        <p><a class="try-button" href="#">Try on Browser</a></p>
+                    </div>
+                </div>
+                <div class="screen-example-download-btn">
+                    <a href="#">Download Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
 </body>
 
 </html>
