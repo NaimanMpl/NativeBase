@@ -14,10 +14,13 @@
         <img class="nav-logo" src="./img/logo.png" alt="NativeBase Startup+ Logo">
         <nav>
             <ul class="desktop-nav">
-
+                <li><a href="#">Builder</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
         </nav>
         <img class="sun" src="./img/sun.svg" alt="">
+        <a class="desktop-nav-cta" href="#">Restore Purchase</a>
         <img class="mobile-menu" src="./img/menu.svg" alt="Menu">
         <img class="mobile-menu-exit" src="./img/exit.svg" alt="Exit Menu">
     </header>
@@ -29,34 +32,39 @@
     </div>
     <section class="hero">
         <div class="hero-container">
-            <h1>The only React and React Native template that you will ever need.</h1>
-            <p>
-                100+ responsive, accessible, dark mode compatible UI screens that work on web
-                and native platforms to build your app upto 2x faster.
-            </p>
-            <div class="supported-frameworks">
-                <span>For</span>
-                <div class="framework">
-                    <img src="./img/react-native-logo.svg" alt="">
-                    <p>React Native</p>
+            <div class="hero-left-col">
+                <h1>The only React and React Native template that you will ever need.</h1>
+                <p>
+                    100+ responsive, accessible, dark mode compatible UI screens that work on web
+                    and native platforms to build your app upto 2x faster.
+                </p>
+                <div class="supported-frameworks">
+                    <span>For</span>
+                    <div class="framework">
+                        <img src="./img/react-native-logo.svg" alt="">
+                        <p>React Native</p>
+                    </div>
+                    <div class="framework">
+                        <img src="./img/react-logo.svg" alt="">
+                    </div>
+                    <div class="framework">
+                        <img src="./img/next-js-logo.svg" alt="">
+                    </div>
+                    <div class="framework">
+                        <img src="./img/expo-logo.svg" alt="">
+                    </div>
+                    <div class="framework">
+                        <img src="./img/Adobe_XD_CC_icon.svg" alt="">
+                        <p>Adobe XD</p>
+                    </div>
                 </div>
-                <div class="framework">
-                    <img src="./img/react-logo.svg" alt="">
-                </div>
-                <div class="framework">
-                    <img src="./img/next-js-logo.svg" alt="">
-                </div>
-                <div class="framework">
-                    <img src="./img/expo-logo.svg" alt="">
-                </div>
-                <div class="framework">
-                    <img src="./img/Adobe_XD_CC_icon.svg" alt="">
-                    <p>Adobe XD</p>
+                <div class="hero-buttons">
+                    <a class="buy-now-btn" href="#">Buy Now</a>
+                    <a class="browse-btn" href="#">Browse Screens</a>
                 </div>
             </div>
-            <div class="hero-buttons">
-                <a class="buy-now-btn" href="#">Buy Now</a>
-                <a class="browse-btn" href="#">Browse Screens</a>
+            <div class="hero-right-col">            <div class="test"></div>
+                <img src="./img/startup-screens-collage-fallback.jpg" alt="">
             </div>
         </div>
     </section>
@@ -170,18 +178,24 @@
     </section>
     <section class="function">
         <div class="function-container">
-            <h1 class="function-title">
-                Browse through the list of well-crafted NativeBase Startup+ screens
-            </h1>
-            <p class="function-subtitle">
-                100+ Plug and Play screens you can use in your React/React Native Projects to build beautiful, responsive and accessible UI, for any type of app.
-            </p>
+            <div class="function-left-col">
+                <h1 class="function-title">
+                    Browse through the list of well-crafted NativeBase Startup+ screens
+                </h1>
+                <p class="function-subtitle">
+                    100+ Plug and Play screens you can use in your React/React Native Projects to build beautiful, responsive and accessible UI, for any type of app.
+                </p>
+            </div>
+            <div class="function-right-col">
+                <img src="./img/explore-screens-dark.webp" alt="">
+            </div>
         </div>
     </section>
     <section class="screens-examples">
         <div class="screen-examples-container">
             <div class="screen-example">
                 <div class="screen-example-borderbox">
+                    <img src="./img/screen_example.webp" alt="">
                 </div>
                 <h4>Login</h4>
                 <h5>6 screens</h5>
@@ -221,6 +235,8 @@
                 <h4>Login</h4>
                 <h5>6 screens</h5>
             </div>
+        </div>
+        <div class="screen-example-col-container">
             <div class="screen-example-left-col">
                 <h1>5 free screens! Try before you buy.</h1>
                 <div class="screen-example-try-box">
@@ -228,7 +244,9 @@
                         <img src="./img/qrcode.jpg" alt="QRCode">
                         <h4>Scan with Expo app</h4>
                     </div>
-                    <hr>
+                    <div class="screen-example-try-box-hr">
+                        <hr>
+                    </div>
                     <div class="screen-example-try-item">
                         <img src="./img/laptop.svg" alt="Laptop Logo">
                         <p><a class="try-button" href="#">Try on Browser</a></p>
@@ -238,9 +256,214 @@
                     <a href="#">Download Now</a>
                 </div>
             </div>
+            <div class="screen-example-right-col">
+                <video class="dark-mode-startup-video" autoplay loop muted>
+                    <source src="./img/dark_mode_startup_screens_animation.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise "vidéo".
+                </video>
+            </div>
+        </div>
+        <div class="same-code-container">
+            <h1>Same code on all platforms</h1>
+            <h4>Why waste your time coding for different platforms ? We make it easier for you.</h4>
+            <img src="./img/screen_example.png" alt="">
         </div>
     </section>
+    <section id="themes">
+        <div class="themes-container">
+            <div class="themes-left-col">
+                <h1>Themeable</h1>
+                <h4>Your theme. Your product. Your identity. We give you the jump-start. Easily customizable to build your brand.</h4>
+                <div class="colors-list">
+                    <div class="color" style="background: pink;"></div>
+                    <div class="color" style="background: orange;"></div>
+                    <div class="color" style="background: rgb(255, 238, 0);"></div>
+                    <div class="color" style="background: green;"></div>
+                    <div class="color" style="background: cyan;"></div>
+                    <div class="color" style="background: blue;"></div>
+                    <div class="color" style="background: blueviolet;"></div>
+                </div>
+            </div>
+            <div class="themes-right-col">
+                <img src="./img/themeable-screens-collage.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="shop">
+        <h1>Get this now. Build your product faster & better !</h1>
+        <h4>Make a simple, one-time purchase and save 100s of hours and 1000s of dollars.</h4>
+        <div class="offers-container">
+            <div class="offer offer1" style="border: 3px solid #4f46e5">
+                <div class="offer-img">
+                    <img src="./img/nativebase-logo.svg" alt="NativeBase Logo" class="offer-logo">
+                </div>
+                <div class="offer-content">
+                    <div class="offer-title">
+                        <h1>NativeBase</h1>
+                        <a href="#">Startup+</a>
+                    </div>
+                    <div class="offer-type">
+                        <h4 >Single</h4>
+                    </div>
+                    <div class="offer-price">
+                        <h5>$</h5>
+                        <h2>199</h2>
+                        <h5 style="text-decoration: line-through; margin-left: 10px;">$299</h5>
+                    </div>
+                    <div class="offer-cta">
+                        <a href="#">Buy Now</a>
+                    </div>
+                    <p>*** We are constantly pushing new updates every day to improve the overall quality of the bundle.</p>
+                    <div class="offer-license">
+                        <h4>Single License</h4>
+                        <ul class="license-list">
+                            <li>Create an End Product for Personal Use</li>
+                            <li>Create an End Product for 1 (one) client where the End Product can be sold to that client for a one-time fee.</li>
+                            <li>Create an End Product for your Univeristy/School.</li>
+                            <li>Change the colors, elements, typography, and images.</li>
+                            <li>Modify, change or manipulate the bundle. You can combine the bundle with other works and make a derivative work from it.</li>
+                        </ul>
+                    </div>
+                    <div class="bundles-list">
+                        <h4>Bundle Includes:</h4>
+                        <ul class="offer-features">
+                            <li>100+ screens across 15 categories</li>
+                            <li>Updates for the next 6 months</li>
+                            <li>Includes Adobe XD kit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="offer offer2">
+                <div class="offer-content">
+                    <div class="offer-title">
+                        <h1>NativeBase</h1>
+                        <a href="#">Startup+</a>
+                    </div>
+                    <div class="offer-cta">
+                        <a class="download-free-screens-btn" href="#">Download free screens</a>
+                    </div>
+                    <div class="offer-description">
+                        <h5>Grab the template now to see if our product fits your business.</h5>
+                        <ul class="offer-features">
+                            <li>A template with 5 free screens</li>
+                            <li>Will help you do a quality check before you make the purchase</li>
+                            <li>Can help you decide whether it fits your business</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="offer offer3">
+                <div class="offer-content">
+                    <div class="offer-title">
+                        <h1>NativeBase</h1>
+                        <a href="#">Startup+</a>
+                    </div>
+                    <div class="offer-cta">
+                        <a class="offer-buy-now-btn" href="#">Buy Now</a>
+                    </div>
+                    <div class="offer-description">
+                        <h5>Everything in Single License, plus...</h5>
+                        <ul class="offer-features">
+                            <li>Create Unlimited End Products for Personal use</li>
+                            <li>Create Unlimited End products for clients</li>
+                            <li>Create Unlimited End Products for your University/School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="faq-container">
+            <h1>Frequently Asked Questions</h1>
+            <div class="faq-container-grid">
+                <div class="question">
+                    <div class="question-title">
+                        <h3>How is NativeBase Startup+ different from NativeBase?</h3>
+                    </div>
+                    <div class="question-answer">
+                        <p>
+                            NativeBase Startup+ is built on top of the popular NativeBase component library. Here, we offer ready-to-use production ready screens and not components that can be used to build the web and mobile apps.
+                        </p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-title">
+                        <h3>Who can benefit the most from NativeBase Startup+?</h3>
+                    </div>
+                    <div class="question-answer">
+                        <p>
+                            Anyone who wants to convert their ideas into products. We offer a wide variety of screens so that users can use them directly in their apps. NativeBase Startup+ can save you on your production cost as well as the development time of your apps & website.
+                        </p>
+                    </div>
+                </div>
+                <div class="question">
+                    <div class="question-title">
+                        <h3>Does NativeBase Startup+ include Figma, Sketch, or Adobe XD files?</h3>
+                    </div>
+                    <div class="question-answer">
+                        <p>
+                            The bundle includes Adobe XD source file only. We don't support Figma & Sketch file at the moment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="newsletter-container">
+            <h1>Join Our Newsletter</h1>
+            <h4>Get regular updates on community and more!</h4>
+            <div class="newsletter-button">
+                <input type="text" value="Email address">
+                <p>Subscribe</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-item">
+            <h4 class="footer-title">Community</h4>
+            <a href="#">Twitter</a>
+            <a href="#">Discord</a>
+            <a href="#">Facebook</a>
+            <a href="#">NativeBase</a>
+        </div>
+
+        <div class="footer-item">
+            <h4 class="footer-title">More</h4>
+            <a href="#">Docs</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact Support</a>
+            <a href="#">Sitemap</a>
+        </div>
+
+        <div class="footer-item">
+            <h4 class="footer-title">Legal</h4>
+            <a href="#">Terms</a>
+            <a href="#">License</a>
+            <a href="#">Support Policy</a>
+            <a href="#">Privacy</a>
+        </div>
+        
+
+        <div class="footer-item">
+            <img src="./img/logo.png" alt="" class="footer-title">
+            <a href="#">Built with 'heart' at GeekyAnts.</a>
+            <div class="social-medias">
+                <div class="social-media">
+                    <img src="./img/linkedin-logo.svg" alt="">
+                </div>
+                <div class="social-media">
+                    <img src="./img/instagram-logo.svg" alt="">
+                </div>
+                <div class="social-media">
+                    <img src="./img/facebook-logo.svg" alt="">
+                </div>
+            </div>
+            <h4>Copyright &copy; 2022 NativeBase</h4>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
-
 </html>
