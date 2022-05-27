@@ -704,10 +704,12 @@ footer img {
     }
 
     .hero-buttons {
+        justify-content: flex-start;
         flex-direction: row;
     }
 
     .hero-buttons a {
+        width: 200px;
         margin-right: 20px;
     }
 
